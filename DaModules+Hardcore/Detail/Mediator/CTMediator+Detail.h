@@ -13,8 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface CTMediator (Detail)
 
 /**
- 通信层对外提供的接口
-
+ 详情通信层对外提供的接口
  @param paramDic 参数
  @return 返回值
  */

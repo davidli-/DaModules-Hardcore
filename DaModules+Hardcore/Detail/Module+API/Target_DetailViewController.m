@@ -16,7 +16,7 @@
 
     // 当前为业务实现层 属于组件的一部分，可以引用目标VC
     DetailViewController *controller = [[UIStoryboard storyboardWithName:@"Main" bundle:nil]
-                                          instantiateViewControllerWithIdentifier:@"DaDetailViewController"];
+                                          instantiateViewControllerWithIdentifier:@"DetailViewController"];
     // 给目标传值
     controller.params = paramDic;
     
